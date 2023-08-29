@@ -1,0 +1,18 @@
+<div class="n-card" [class.is-flipped]="isFlipped" [ngStyle]="getCardStyle(cardContent)" data-aos="fade-up">
+    <div class="n-card-inner">
+      <div class="n-card-front" [style.backgroundImage]="cardContent.cardFrontImage">
+        <div class="n-card-heading-container" (click)="toggleFlip()">
+            <div class="n-card-heading" >
+            {{cardContent.heading}}</div></div>
+      </div>
+      <div class="n-card-back" [style.backgroundImage]="cardContent.cardBackImage" (click)="toggleFlip()">
+        <div class="n-card-back-inner">
+        <div class="n-card-list-heading">{{cardContent.listHeading}}</div>
+        <ul class="n-card-list">
+            <li *ngFor="let list of cardContent.list">{{list}}</li>
+        </ul>
+    </div>
+      </div>
+    </div>
+  </div>
+  

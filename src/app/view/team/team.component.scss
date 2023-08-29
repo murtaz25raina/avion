@@ -1,0 +1,37 @@
+.n-margin-left-default {
+  margin-left: 120px;
+}
+
+.n-margin-right-default {
+  margin-right: 120px;
+}
+
+.n-header-container {
+  padding: 24px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #000;
+  .n-header-logo {
+    width: 123.035px;
+    height: 64px;
+  }
+
+  .n-speak-to-our-team {
+    margin-left: 63px;
+    width: 183px;
+    height: 48px;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+    font-family: Lab Grotesque;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+    letter-spacing: -0.32px;
+    background: #000;
+  }
+}

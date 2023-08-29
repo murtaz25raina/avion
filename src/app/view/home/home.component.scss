@@ -1,0 +1,334 @@
+.n-margin-left-default {
+  margin-left: 120px;
+}
+
+.n-margin-right-default {
+  margin-right: 120px;
+}
+
+.n-header-container {
+  padding: 24px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  .n-header-logo {
+    width: 123.035px;
+height: 64px;
+  }
+  .n-team-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .n-our-team {
+    color: #000;
+    text-align: center;
+    font-family: Lab Grotesque;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+    letter-spacing: -0.32px;
+  }
+  .n-speak-to-our-team {
+    margin-left: 63px;
+    width: 183px;
+    height: 48px;
+    border-radius: 6px;
+    border: 2px solid #2c68f6;
+    color: #000;
+    text-align: center;
+    font-family: Lab Grotesque;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+    letter-spacing: -0.32px;
+    background: #fff;
+  }
+}
+
+.n-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.n-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.n-flex-wrap {
+  flex-wrap: wrap;
+}
+
+.n-home-top {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.n-making-airport-solutions {
+  color: #262727;
+  font-family: Feature Display Trial;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 111.111% */
+  max-width: 488px;
+}
+
+.n-avion-is-the-operating {
+  color: #262727;
+  font-family: Lab Grotesque;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  max-width: 426px;
+  margin-top: 8px;
+}
+
+.n-book-a-free-consultaion {
+  width: 230.678px;
+  height: 52px;
+  border-radius: 6px;
+  border: 2px solid #2c68f6;
+  background: #2c68f6;
+  margin-top: 24px;
+  color: #fff;
+  text-align: center;
+  font-family: Graphik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 88.889% */
+  letter-spacing: -0.36px;
+}
+
+.n-business-couple-near-the-airport {
+  width: 172px;
+  height: 264px;
+}
+.n-transportation-tourist-tourism-airport {
+  width: 316px;
+  height: 387.278px;
+  margin-left: 16px;
+}
+.n-woman-wearing-white {
+  width: 122px;
+  height: 122px;
+}
+
+.n-top-3-images {
+  align-items: center;
+}
+
+.n-trusted-by-the-best {
+  color: #262727;
+  font-family: Lab Grotesque;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 122.222% */
+  margin-top: 44px;
+}
+
+.n-partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 46px;
+  .n-partner-1 {
+    width: 68.865px;
+    height: 55.998px;
+  }
+  .n-partner-2 {
+    width: 195.313px;
+    height: 56px;
+  }
+  .n-partner-3 {
+    width: 74.667px;
+    height: 56px;
+  }
+  .n-partner-4 {
+    width: 86.4px;
+    height: 56px;
+  }
+  .n-partner-5 {
+    width: 123.968px;
+    height: 56px;
+  }
+  .n-partner-6 {
+    width: 56px;
+    height: 56px;
+  }
+  .n-partner-7 {
+    width: 130.112px;
+    height: 48px;
+  }
+  .n-partner-8 {
+    width: 162.581px;
+    height: 56px;
+  }
+}
+
+.n-horizontal-line {
+  max-width: 100%;
+  height: 0.5px;
+  background: #b3b3b3;
+  margin-top: 64px;
+}
+.n-horizontal-line-2 {
+  max-width: 100%;
+  height: 0.5px;
+  background: #b3b3b3;
+  margin-top: 94px;
+}
+
+.n-maximize-your-roi-container {
+  margin-top: 96px;
+  justify-content: space-between;
+}
+
+.n-maximize-your-roi-container-left {
+  justify-content: space-between;
+}
+
+.n-maximize-your-roi {
+  position: relative;
+  color: #262727;
+  font-family: Feature Display Trial;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 108.333% */
+  max-width: 553px;
+}
+
+.n-curved-arrow {
+  position: absolute;
+  left: -120px;
+  top: -145px;
+  width: 151.584px;
+  height: 175.645px;
+}
+
+.n-we-view-digital {
+  color: #262727;
+  font-family: Lab Grotesque;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  margin-top: 16px;
+  max-width: 508px;
+}
+.n-number-container > div:nth-child(2) {
+  margin-left: 33px;
+  margin-right: 18px;
+}
+
+.n-number {
+  color: #000;
+  font-family: Lab Grotesque;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.n-symbol-small {
+  color: #000;
+  font-family: Lab Grotesque;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.n-number-description {
+  color: #262727;
+  font-family: Lab Grotesque;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 11px;
+}
+.n-number-description-1 {
+  max-width: 150px;
+}
+.n-number-description-2 {
+  max-width: 140px;
+}
+.n-number-description-3 {
+  max-width: 186px;
+}
+
+.n-points-container {
+  row-gap: 64px;
+}
+.n-points-image {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+.n-points-heading {
+  color: #000;
+  font-family: Lab Grotesque;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.24px;
+}
+.n-points-description {
+  color: #262727;
+  font-family: Lab Grotesque;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  max-width: 434px;
+  margin-top: 8px;
+}
+
+.n-everything-that-your-airport-needs-container {
+  margin-top: 96px;
+}
+.n-everything-that-your-airport-needs {
+  display: inline-block;
+  position: relative;
+  color: #262727;
+  font-family: Feature Display Trial;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 108.333% */
+}
+.n-everything-that-your-airport-needs-everything {
+  position: absolute;
+  right: 0;
+  width: 254.458px;
+  height: 88px;
+  bottom: -13px;
+}
+.n-from-turnkey {
+  max-width: 485px;
+  color: #262727;
+  font-family: Lab Grotesque;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  margin-top: 16px;
+}
+
+.n-cards-container{
+    margin-top: 32px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 272px 272px 272px 272px;
+    margin-bottom: 168px;
+}
