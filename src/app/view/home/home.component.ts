@@ -153,4 +153,54 @@ export class HomeComponent {
       ],
     },
   ];
+
+
+  businessGoalsAndOutcomes = [
+    {
+        goal:'Infrastructure Overhaul',
+        outcome:'Seamlessly upgraded ICT infrastructure at multiple PPP airports across South Asia, achieving unrivaled operational efficiency.'
+    },
+    {
+        goal:'Mega ICT Strategy',
+        outcome:'Orchestrated the tech strategy for a $15 billion Greenfield airport, uniting various key players like airlines, government, and retailers for smooth sailing.'
+    },
+    {
+        goal:'Contactless Travel',
+        outcome:'Deployed an award-winning  “Contactless Travel” system, ranking first in the Future Travel Experience list.'
+    },
+    {
+        goal:'Cost Efficiency',
+        outcome:'Generated over $30 million in savings for an airline catering company through strategic planning and optimization.'
+    },
+    {
+        goal:'Biometric Breakthrough',
+        outcome:'Streamlined passenger processing based on biometric authentication at one of Asia\'s busiest airports.'
+    },
+    {
+        goal:'Goal One',
+        outcome:'Integer ultrices congue libero quis fermentum. Ut pulvinar arcu lacus, ut fringilla erat tempus a. Integer dapibus consectetur massa, vitae.'
+    },
+    {
+        goal:'Goal Two',
+        outcome:'Aliquam eu velit vel lorem tempor ultrices a eu risus. In scelerisque lacus in hendrerit egestas. Orci varius natoque penatibus.'
+    }
+
+  ]
+  businessGoalsAndOutcomesOnScreen:any =[];
+  constructor(){
+    this.businessGoalsAndOutcomesOnScreen = [...this.businessGoalsAndOutcomes.slice(0,5)]; 
+  }
+  
+  showMore:Boolean = true;
+
+  toggleShowMoreGoalsAndOutCome = ()=>{
+    if(this.showMore){
+        this.businessGoalsAndOutcomesOnScreen = [...this.businessGoalsAndOutcomes]
+        this.showMore = false;
+    }
+    else{
+        this.businessGoalsAndOutcomesOnScreen = [...this.businessGoalsAndOutcomes.slice(0,5)]; 
+        this.showMore = true;
+    }
+  }
 }

@@ -1,101 +1,197 @@
 <div class="n-header-container">
-    <img src="assets/images/avion-black.svg" alt="avion" class="n-header-logo n-margin-left-default" routerLink="/"/>
-    <div class="n-team-contact n-margin-right-default">
-        <div class="n-our-team" routerLink="/team">Our Team</div>
-        <button class="n-speak-to-our-team">Speak to our team</button>
-    </div>
+  <img
+    src="assets/images/avion-black.svg"
+    alt="avion"
+    class="n-header-logo n-margin-left-default"
+    routerLink="/"
+  />
+  <div class="n-team-contact n-margin-right-default">
+    <div class="n-our-team" routerLink="/team">Our Team</div>
+    <button class="n-speak-to-our-team">Speak to our team</button>
+  </div>
 </div>
 <div class="n-flex-row n-margin-left-default n-margin-right-default n-home-top">
-    <div>
-        <div class="n-making-airport-solutions">
-            Making airport solutions smarter, not harder.
-        </div>
-        <div class="n-avion-is-the-operating">
-            Avion is the operating system for optimizing every facet of your airport's passenger and operational experience.
-        </div>
-        <button class="n-book-a-free-consultaion">
-            Book a free consultation
-        </button>
+  <div>
+    <div class="n-making-airport-solutions">
+      Making airport solutions smarter, not harder.
     </div>
-    <div class="n-flex-row n-top-3-images">
-        <img src="assets/images/business-couple-near-the-airport.png" alt="business-couple-near-the-airport" class="n-business-couple-near-the-airport"/>
-        <img src="assets/images/transportation-tourist-tourism-airport.png" alt="transportation-tourist-tourism-airport" class="n-transportation-tourist-tourism-airport"/>
-        <img src="assets/images/woman-wearing-white.png" alt="woman-wearing-white" class="n-woman-wearing-white"/>
+    <div class="n-avion-is-the-operating">
+      Avion is the operating system for optimizing every facet of your airport's
+      passenger and operational experience.
     </div>
+    <button class="n-book-a-free-consultaion">Book a free consultation</button>
+  </div>
+  <div class="n-flex-row n-top-3-images">
+    <img
+      src="assets/images/business-couple-near-the-airport.png"
+      alt="business-couple-near-the-airport"
+      class="n-business-couple-near-the-airport"
+    />
+    <img
+      src="assets/images/transportation-tourist-tourism-airport.png"
+      alt="transportation-tourist-tourism-airport"
+      class="n-transportation-tourist-tourism-airport"
+    />
+    <img
+      src="assets/images/woman-wearing-white.png"
+      alt="woman-wearing-white"
+      class="n-woman-wearing-white"
+    />
+  </div>
 </div>
 <div class="n-trusted-by-the-best n-margin-left-default">
-    Trusted by the best in the business
+  Trusted by the best in the business
 </div>
 <div class="n-partners n-margin-left-default n-margin-right-default">
-    <img *ngFor="let partner of partners" [src]="partner.img" [class]="partner.class"/>
+  <img
+    *ngFor="let partner of partners"
+    [src]="partner.img"
+    [class]="partner.class"
+  />
 </div>
-<div class="n-horizontal-line n-margin-left-default n-margin-right-default">
+<div
+  class="n-horizontal-line n-margin-left-default n-margin-right-default"
+></div>
 
+<div
+  class="n-flex-row n-margin-left-default n-margin-right-default n-maximize-your-roi-container"
+>
+  <div class="n-flex-column n-maximize-your-roi-container-left">
+    <div>
+      <div class="n-maximize-your-roi">
+        <img
+          src="assets/images/curve-arrow.png"
+          alt="arrow"
+          class="n-curved-arrow"
+        />
+        Maximize your ROI with all-round digital transformation.
+      </div>
+      <div class="n-we-view-digital">
+        We view digital transformation as your key to unlocking higher ROI. From
+        operations to customer engagement, we provide holistic tech solutions
+        that drive tangible financial results.
+      </div>
+    </div>
+    <div class="n-flex-row n-number-container">
+      <div>
+        <div class="n-number"><span class="n-symbol-small">$</span>60B</div>
+        <div class="n-number-description n-number-description-1">
+          Cost of delays in the aviation industry annually
+        </div>
+      </div>
+      <div>
+        <div class="n-number">85<span class="n-symbol-small">%</span></div>
+        <div class="n-number-description n-number-description-2">
+          Increase in non-aeronautical revenue
+        </div>
+      </div>
+      <div>
+        <div class="n-number">70<span class="n-symbol-small">%</span></div>
+        <div class="n-number-description n-number-description-3">
+          Airports find modernising IT Infrastructure as their top priority
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="n-flex-column n-points-container">
+    <div class="n-flex-row">
+      <img
+        src="assets/images/point-image-1.png"
+        alt="img"
+        class="n-points-image"
+      />
+      <div class="n-flex-column">
+        <div class="n-points-heading">Improve operational efficiency</div>
+        <div class="n-points-description">
+          Efficiency is more than speed—it's smarter work. We digitally upgrade
+          your airport's operations to save both time and costs, giving you a
+          competitive edge.
+        </div>
+      </div>
+    </div>
+    <div class="n-flex-row">
+      <img
+        src="assets/images/point-image-2.png"
+        alt="img"
+        class="n-points-image"
+      />
+      <div class="n-flex-column">
+        <div class="n-points-heading">Enhance passenger experience</div>
+        <div class="n-points-description">
+          We put travelers at the heart of everything we do. From smart
+          check-ins to hassle-free boarding, we lift your passenger satisfaction
+          scores sky-high.
+        </div>
+      </div>
+    </div>
+    <div class="n-flex-row">
+      <img
+        src="assets/images/point-image-3.png"
+        alt="img"
+        class="n-points-image"
+      />
+      <div class="n-flex-column">
+        <div class="n-points-heading">Increase revenue</div>
+        <div class="n-points-description">
+          Elevate your revenue streams through digital channels. We monetize key
+          aspects of your airport, from retail to services, fueling growth and
+          profits.
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+<div
+  class="n-horizontal-line-2 n-margin-left-default n-margin-right-default"
+></div>
 
-<div class="n-flex-row n-margin-left-default n-margin-right-default n-maximize-your-roi-container">
-    <div class="n-flex-column n-maximize-your-roi-container-left">
-        <div>
-            <div class="n-maximize-your-roi">
-                <img src="assets/images/curve-arrow.png" alt="arrow" class="n-curved-arrow"/>
-                Maximize your ROI with all-round digital transformation.
-            </div>
-            <div class="n-we-view-digital">
-                We view digital transformation as your key to unlocking higher ROI. From operations to customer engagement, we provide holistic tech solutions that drive tangible financial results.
-            </div>
-        </div>
-        <div class="n-flex-row n-number-container">
-            <div>
-                <div class="n-number"><span class="n-symbol-small">$</span>60B</div>
-                <div class="n-number-description n-number-description-1">Cost of delays in the aviation industry annually</div>
-            </div>
-            <div>
-                <div class="n-number">85<span class="n-symbol-small">%</span></div>
-                <div class="n-number-description n-number-description-2">Increase in non-aeronautical revenue</div>
-            </div>
-            <div>
-                <div class="n-number">70<span class="n-symbol-small">%</span></div>
-                <div class="n-number-description n-number-description-3">Airports find modernising IT Infrastructure as their top priority</div>
-            </div>
-        </div>
-    </div>
-    <div class="n-flex-column n-points-container">
-        <div class="n-flex-row">
-            <img src="assets/images/point-image-1.png" alt="img" class="n-points-image"/>
-            <div class="n-flex-column">
-                <div class="n-points-heading">Improve operational efficiency</div>
-                <div class="n-points-description">Efficiency is more than speed—it's smarter work. We digitally upgrade your airport's operations to save both time and costs, giving you a competitive edge.</div>
-            </div>
-        </div>
-        <div class="n-flex-row">
-            <img src="assets/images/point-image-2.png" alt="img" class="n-points-image"/>
-            <div class="n-flex-column">
-                <div class="n-points-heading">Enhance passenger experience</div>
-                <div class="n-points-description">We put travelers at the heart of everything we do. From smart check-ins to hassle-free boarding, we lift your passenger satisfaction scores sky-high.</div>
-            </div>
-        </div>
-        <div class="n-flex-row">
-            <img src="assets/images/point-image-3.png" alt="img" class="n-points-image"/>
-            <div class="n-flex-column">
-                <div class="n-points-heading">Increase revenue</div>
-                <div class="n-points-description">Elevate your revenue streams through digital channels. We monetize key aspects of your airport, from retail to services, fueling growth and profits.</div>
-            </div>
-        </div>
-    </div>
+<div
+  class="n-everything-that-your-airport-needs-container n-margin-left-default n-margin-right-default"
+>
+  <div class="n-everything-that-your-airport-needs">
+    Everything that your airport needs. Everything.
+    <img
+      src="assets/images/encircle.png"
+      alt="img"
+      class="n-everything-that-your-airport-needs-everything"
+    />
+  </div>
+  <div class="n-from-turnkey">
+    From turnkey solutions to à la carte options, Avion is your one-stop shop
+    for comprehensive digital transformation.
+  </div>
+  <div class="n-cards-container">
+    <app-card *ngFor="let card of cardData" [cardContent]="card"></app-card>
+  </div>
 </div>
-<div class="n-horizontal-line-2 n-margin-left-default n-margin-right-default">
+<div class="n-margin-left-default n-margin-right-default">
+  <div class="n-flex-row n-revolutionize-efficiency">
+    <div class="n-revolutionize-your-airport">Revolutionize your airport too.<br/> Like them.
+    <img src="assets/images/three-lines.png" class="n-three-lines"/>
+    </div>
+    <div class="n-unlocking-efficiency">
+      Unlocking efficiency, boosting savings, and delighting travelers and
+      airlines: our hands-on solutions in action
+    </div>
+  </div>
+  <div>
+    <div class="n-flex-row n-business-goal-outcome-heading-container">
+        <div class="n-business-goal-heading">BUSINESS GOAL</div>
+        <div class="n-business-outcome-heading">OUTCOME</div>
+    </div>
+    <div class="n-flex-row n-business-goal-outcome-container" *ngFor="let bgao of businessGoalsAndOutcomesOnScreen; let i=index">
+        <div class="n-business-goal">
+            <span class="n-goal-index">{{i+1}}</span>
+            {{bgao.goal}}</div>
+        <div class="n-business-outcome">{{bgao.outcome}}</div>
+    </div>
+    <div class="n-flex-row n-show-more">
+        <img [src]="showMore ? 'assets/images/show-more.png' : 'assets/images/show-less.png'" alt="show-more" class="n-show-more-icon"/>
+        <div *ngIf="showMore; else showLess" class="n-show-more-text" (click)="toggleShowMoreGoalsAndOutCome()">Show more</div>
+        <ng-template #showLess>
+            <div class="n-show-more-text" (click)="toggleShowMoreGoalsAndOutCome()">Show less</div>
+        </ng-template>
 
-</div>
-
-<div class="n-everything-that-your-airport-needs-container n-margin-left-default n-margin-right-default">
-    <div class="n-everything-that-your-airport-needs">
-        Everything that your airport needs. Everything.
-        <img src="assets/images/encircle.png" alt="img" class="n-everything-that-your-airport-needs-everything"/>
     </div>
-    <div class="n-from-turnkey">
-        From turnkey solutions to à la carte options, Avion is your one-stop shop for comprehensive digital transformation.
-    </div>
-    <div class="n-cards-container">
-        <app-card *ngFor="let card of cardData" [cardContent]="card"></app-card>
-    </div>
+  </div>
 </div>

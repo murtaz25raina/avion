@@ -15,11 +15,13 @@
   .n-header-logo {
     width: 123.035px;
 height: 64px;
+cursor: pointer;
   }
   .n-team-contact {
     display: flex;
     flex-direction: row;
     align-items: center;
+    cursor: pointer;
   }
   .n-our-team {
     color: #000;
@@ -331,4 +333,123 @@ height: 64px;
     gap: 16px;
     grid-template-columns: 272px 272px 272px 272px;
     margin-bottom: 168px;
+}
+.n-revolutionize-efficiency{
+justify-content: space-between;
+}
+
+.n-revolutionize-your-airport{
+    color: #262727;
+font-family: Feature Display Trial;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 108.333% */
+max-width: 506px;
+}
+
+.n-unlocking-efficiency{
+    color: #262727;
+font-family: Lab Grotesque;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 133.333% */
+max-width: 574px;
+}
+
+.n-three-lines{
+    width: 18.542px;
+    height: 20.315px;
+    margin-bottom: 23px;
+    margin-left: -20px;
+}
+
+
+.n-business-goal-outcome-container{
+    height: 152px;
+    border-top: 0.5px solid #B3B3B3;
+    border-bottom: 0.5px solid #B3B3B3;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.n-business-goal-outcome-heading-container{
+    justify-content: space-between;
+    margin-bottom: 16px;
+    margin-top: 48px;
+}
+
+.n-business-goal-heading, .n-business-outcome-heading{
+    color: #262727;
+font-family: Lab Grotesque;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+letter-spacing: 0.36px;
+width: 50%;
+}
+
+
+.n-business-outcome{
+    max-width: 610px;
+    width: 50%;
+    color: #262727;
+font-family: Lab Grotesque;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+}
+
+.n-business-goal{
+    color: #262727;
+font-family: Lab Grotesque;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 133.333% */
+width: 50%;
+}
+
+.n-goal-index{
+    color: #262727;
+font-family: Lab Grotesque;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+letter-spacing: -0.24px;
+border: 1px solid #000;
+border-radius: 100%;
+width: 32px;
+height: 32px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-right: 16px;
+
+}
+
+.n-show-more{
+    margin-top: 30px;
+    column-gap: 16px;
+    cursor: pointer;
+    margin-bottom: 168px;
+}
+
+.n-show-more-text{
+    color: #2C68F6;
+text-align: center;
+font-family: Lab Grotesque;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 133.333% */
+}
+
+.n-show-more-icon{
+    width: 32px;
+height: 32px;
 }
