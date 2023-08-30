@@ -7,6 +7,9 @@ import { DefaultLayoutComponent } from './layout/default-layout.component';
 import { TeamComponent } from './view/team/team.component';
 import { HomeComponent } from './view/home/home.component';
 import { CardComponent } from './components/card/card.component';
+import { ContactUsFooterComponent } from './components/contactus-footer/contactus-footer.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { CardComponent } from './components/card/card.component';
     DefaultLayoutComponent,
     HomeComponent,
     TeamComponent,
-    CardComponent
+    CardComponent,
+    ContactUsFooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

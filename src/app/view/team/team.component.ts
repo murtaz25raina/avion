@@ -6,5 +6,7 @@ import { Component } from "@angular/core";
     styleUrls:['./team.component.scss']
 })
 export class TeamComponent{
-    
+    openLinkedin=(link:string)=>{
+        window.open(link,"_blank")
+    }
 }

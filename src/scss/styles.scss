@@ -1,14 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
 @import "font-family";
 
-body,html{
-    margin: 0px;
-    padding: 0px;
-    scroll-behavior: smooth;
-    height: 100%;
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  height: 100%;
 }
 
-button{
-    border: 0px;
-    cursor: pointer;
+button {
+  border: 0px;
+  cursor: pointer;
+}
+
+.n-margin-left-default {
+    margin-left: 120px;
+}
+  
+.n-margin-right-default {
+    margin-right: 120px;
+}
+
+.n-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.n-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.n-flex-wrap {
+  flex-wrap: wrap;
 }
